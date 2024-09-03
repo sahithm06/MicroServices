@@ -1,0 +1,22 @@
+
+spring:
+  application:
+    name: department-service
+
+  config:
+    import: "optional:configserver:http://localhost:8088"
+
+#eureka:
+#  instance:
+#    prefer-ip-address: true   # Forces the client to register with its IP address
+#    ip-address: ${spring.cloud.client.ip-address}  # This will set the IP dynamically if needed
+
+
+
+
+
+
+
+
+
+
